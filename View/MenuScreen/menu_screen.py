@@ -10,14 +10,14 @@ class MenuScreenView(MDScreen):
         if not self.ids.menu_list.data:
             manu_list = [
                 "Field",
-                "Card",
-                "Button",
-                "Chip",
-                "List",
-                "Sliver",
-                "Rail",
-                "Tile",
-                "Hero",
+                # "Card",
+                # "Button",
+                # "Chip",
+                # "List",
+                # "Sliver",
+                # "Rail",
+                # "Tile",
+                # "Hero",
             ]
             manu_list.sort()
             for name_card in manu_list:
